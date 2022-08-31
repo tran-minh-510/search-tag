@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #bef763;
+}
+
+.container{
+    width: 30%;
+    margin: 10% auto;
+    padding: 5px;
+}
+
+.container h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.container .wrapper{
+    width: 80%;
+    border: 1px solid #fff;
+    display: flex;
+    margin: 20px auto 0;
+    padding: 5px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.container .wrapper .wrapper-content{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 1.3rem;
+}
+
+.container .wrapper input{
+    font-size: 1.3rem;
+    flex: 1;
+    background-color: #bef763;
+    border: none;
+    outline: none;
+}
+
+.container .wrapper .wrapper-content span{
+    cursor: pointer;
+    color: red;
+    font-size: 1rem;
+    margin-left: 5px;
+}
